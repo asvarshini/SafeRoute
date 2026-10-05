@@ -14,8 +14,6 @@ But travelers also need to know:
 
 Price and star ratings alone cannot answer that.
 
----
-
 ## 💡 Our Solution
 
 SafeRoute combines:
@@ -36,8 +34,6 @@ into one simple travel decision-making experience.
 
 Instead of simply saying **“4.2 ⭐ — Book Now,”** SafeRoute helps travelers understand **why a hotel may or may not be suitable for their trip.**
 
----
-
 # ⭐ Why SafeRoute Is Different
 
 ### 🧳 Traditional Travel Search
@@ -51,8 +47,6 @@ Instead of simply saying **“4.2 ⭐ — Book Now,”** SafeRoute helps travele
 Our uniqueness is the **decision layer before booking**.
 
 SafeRoute brings different travel signals together so users can make a more informed accommodation decision instead of depending only on price and ratings.
-
----
 
 # 🔥 SerpApi Is the Core of SafeRoute
 
@@ -91,8 +85,6 @@ Without SerpApi, SafeRoute would lose major parts of its core workflow:
 
 This makes SerpApi a **fundamental part of the product**, not an add-on.
 
----
-
 # ⚠️ Weather & Travel Awareness
 
 SafeRoute also considers **weather conditions and travel information** as part of the travel decision.
@@ -106,8 +98,6 @@ SafeRoute also considers **weather conditions and travel information** as part o
 This can be especially useful when traveling through **hilly, mountainous, or landslide-prone regions**, where changing weather conditions can affect travel planning.
 
 > ⚠️ **SafeRoute provides travel decision context. It does not guarantee safety and does not replace official government emergency alerts.**
-
----
 
 # 🧠 Trust Through Evidence
 
@@ -125,8 +115,6 @@ Users can see:
 We do **not fabricate negative reviews** simply to make a score look balanced.
 
 When evidence is insufficient, SafeRoute says so.
-
----
 
 # 🏗️ Project Structure
 
@@ -168,21 +156,19 @@ SafeRoute/
 └── 📄 .gitignore
 
 💻 Technology Used
-🎨 Frontend
 
+🎨 Frontend
 ⚛️ React
 ⚡ Vite
 🟨 JavaScript / JSX
 🎨 HTML / CSS
 
 ⚙️ Backend
-
 🐍 Python
 🚀 FastAPI
 🗄️ SQLite
 
 🔎 Data & Intelligence
-
 🔥 SerpApi
 🏨 Google Hotels
 📰 Google News
@@ -190,13 +176,11 @@ SafeRoute/
 🧠 Review Evidence Analysis
 
 🔗 Integration
-
 🔌 REST APIs
 📦 JSON
 🔐 Environment Variables
 
 🏆 Why SafeRoute Fits the Hackathon
-
 🎯 Track: Travel & Local Discovery
 
 💡 Idea: Solves the gap between finding a hotel and deciding whether it is suitable.
@@ -254,4 +238,3 @@ to provide personalized recommendations and proactively inform travelers when re
 SafeRoute turns travel search into travel decision intelligence — helping travelers understand the evidence before they book.
 
 🛡️ Search Smart. Understand the Evidence. Travel Better.
-
