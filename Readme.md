@@ -118,7 +118,7 @@ When evidence is insufficient, SafeRoute says so.
 
 # 🏗️ Project Structure
 
-```text
+text
 SafeRoute/
 │
 ├── 📄 README.md
