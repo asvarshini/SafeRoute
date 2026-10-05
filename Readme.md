@@ -159,77 +159,127 @@ SafeRoute/
 💻 Technology Used
 
 🎨 Frontend
+
 ⚛️ React
+
 ⚡ Vite
+
 🟨 JavaScript / JSX
+
 🎨 HTML / CSS
 
 ⚙️ Backend
+
+
 🐍 Python
+
 🚀 FastAPI
+
 🗄️ SQLite
 
+
 🔎 Data & Intelligence
+
 🔥 SerpApi
+
 🏨 Google Hotels
+
 📰 Google News
+
 🌦️ Open-Meteo
+
 🧠 Review Evidence Analysis
 
+
+
 🔗 Integration
+
 🔌 REST APIs
+
 📦 JSON
+
 🔐 Environment Variables
 
+
 🏆 Why SafeRoute Fits the Hackathon
+
 🎯 Track: Travel & Local Discovery
+
 
 💡 Idea: Solves the gap between finding a hotel and deciding whether it is suitable.
 
+
 ✨ Originality: Combines hotel discovery with evidence-driven hygiene and women's-safety decision support.
+
+
 
 🧠 Technical Complexity: React + FastAPI + SerpApi + review analysis + transparent scoring + SQLite + weather + community feedback.
 
+
 🌍 Usefulness: Helps travelers make a more informed decision before spending money or booking.
 
+
 🔥 Meaningful SerpApi Usage: SerpApi powers hotel discovery, review evidence and travel-news context.
+
 
 🚀 How to Start
 
 1️⃣ Clone the Repository
+
 git clone <your-github-repository-url>
+
 cd SafeRoute
 
+
 2️⃣ Start the Backend
+
 cd backend
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
 
+
 3️⃣ Add Your SerpApi Key
+
 Create a .env file inside the backend folder:
+
 
 SERPAPI_API_KEY=your_api_key_here
 
+
 🔐 Never commit your real API key to GitHub.
+
 
 4️⃣ Start the Frontend
 
 Open another terminal:
 
+
 cd frontend
+
 npm install
+
 npm run dev
+
 
 Then open the local URL provided by Vite in your browser.
 
+
 🚀 Future Vision
+
 
 SafeRoute can evolve into an 🤖 AI-powered travel agent that continuously analyzes:
 
+
 🔎 Search Evidence
+
 🌦️ Weather
+
 📰 Travel News
+
 👥 Community Feedback
+
 🏨 Hotel Information
 
 to provide personalized recommendations and proactively inform travelers when relevant conditions change.
