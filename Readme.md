@@ -226,7 +226,7 @@ SafeRoute/
 
 1️⃣ Clone the Repository
 
-git clone <your-github-repository-url>
+git clone  : https://github.com/asvarshini/SafeRoute
 
 cd SafeRoute
 
@@ -237,7 +237,7 @@ cd backend
 
 pip install -r requirements.txt
 
-uvicorn main:app --reload
+python -m uvicorn main:app --reload
 
 
 3️⃣ Add Your SerpApi Key
