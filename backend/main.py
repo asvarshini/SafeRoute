@@ -2507,12 +2507,7 @@ def get_open_meteo_weather(
                             if start < today
                             else {}
                         ),
-                        # Today counts as day 1, so today + 15 days is
-                        # the maximum 16-day forecast window.
-                        "forecast_days": min(
-                            16,
-                            max(1, future_end_days + 1),
-                        ),
+                        
                     }
                     if not is_past
                     else {}
