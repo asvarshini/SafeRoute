@@ -247,7 +247,7 @@ SafeRoute/
 
 1️⃣ Clone the Repository
 
-git clone  : https://github.com/asvarshini/SafeRoute
+git clone   https://github.com/asvarshini/SafeRoute
 
 cd SafeRoute
 
@@ -310,3 +310,5 @@ to provide personalized recommendations and proactively inform travelers when re
 SafeRoute turns travel search into travel decision intelligence — helping travelers understand the evidence before they book.
 
 🛡️ Search Smart. Understand the Evidence. Travel Better.
+
+Built by **[Varshini A S]** for the  SerpApi India Hackathon 2026
