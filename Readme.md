@@ -1,6 +1,6 @@
 # 🛡️ SafeRoute — Travel Decision Intelligence Before You Book
 
-> 🌍 **SafeRoute is not another travel-booking app. It is a safety-focused travel decision layer that helps travelers understand a hotel and surrounding travel conditions before they book.**
+> 🌍 SafeRoute is not another travel-booking app. It is a safety-focused travel decision layer that helps travelers understand a hotel and surrounding travel conditions before they book.
 
 ## 📸 SafeRoute Screenshots
 
