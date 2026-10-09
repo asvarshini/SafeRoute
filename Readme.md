@@ -2,6 +2,27 @@
 
 > 🌍 **SafeRoute is not another travel-booking app. It is a safety-focused travel decision layer that helps travelers understand a hotel and surrounding travel conditions before they book.**
 
+## 📸 SafeRoute Screenshots
+
+### 🏠 Home Page
+
+![SafeRoute Home Page](screenshot/Home%20Page.png)
+
+### 🏨 Hotel Results
+
+![SafeRoute Hotel Results](screenshot/Hotel%20Results.png)
+
+### 🛡️ Hygiene & Women's Safety
+
+![SafeRoute Hygiene and Safety](screenshot/safety%20and%20hygienic.png)
+
+### 🌦️ Weather & Community Information
+
+![SafeRoute Weather and Community Information](screenshot/Weather%20%26Community%20info.png)
+
+---
+
+
 ## 🚨 The Problem
 
 Most travel platforms answer:
