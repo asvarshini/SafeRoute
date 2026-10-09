@@ -6,19 +6,19 @@
 
 ### 🏠 Home Page
 
-![SafeRoute Home Page](screenshot/Home%20Page.png)
+![SafeRoute Home Page](screenshot/Home%20Page.jpeg)
 
 ### 🏨 Hotel Results
 
-![SafeRoute Hotel Results](screenshot/Hotel%20Results.png)
+![SafeRoute Hotel Results](screenshot/Hotel%20Results.jpeg)
 
 ### 🛡️ Hygiene & Women's Safety
 
-![SafeRoute Hygiene and Safety](screenshot/safety%20and%20hygienic.png)
+![SafeRoute Hygiene and Safety](screenshot/safety%20and%20hygienic.jpeg)
 
 ### 🌦️ Weather & Community Information
 
-![SafeRoute Weather and Community Information](screenshot/Weather%20%26Community%20info.png)
+![SafeRoute Weather and Community Information](screenshot/Weather%20%26Community%20info.jpeg)
 
 ---
 
