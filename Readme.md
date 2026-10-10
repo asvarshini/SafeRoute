@@ -154,7 +154,7 @@ SafeRoute/
 │   ├── 🐍 main.py
 │   ├── 🗄️ database.py
 │   ├── 📄 requirements.txt
-│   └── 🔐 .env
+│   
 │
 ├── 📁 frontend/
 │   ├── 📁 public/
