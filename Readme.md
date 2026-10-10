@@ -1,14 +1,14 @@
 # 🛡️ SafeRoute — Travel Decision Intelligence Before You Book
 
-> 🌍 SafeRoute is not another travel-booking app. It is a safety-focused travel decision layer that helps travelers understand a hotel and surrounding travel conditions before they book.
+> SafeRoute helps travelers make more informed accommodation decisions by combining hotel discovery, available review evidence, weather information, travel news, and women's community feedback in one place.
 
 ## 🎬 Project Demo
 
-▶️ **Watch SafeRoute in action:** [Watch the 90-second demo on YouTube](https://youtu.be/vWxm4ys-oXM)
+▶️ **[Watch the 90-Second Demo on YouTube](https://youtu.be/vWxm4ys-oXM)**
 
-💻 **GitHub Repository:** [Explore the SafeRoute source code](https://github.com/asvarshini/SafeRoute)
+💻 **[Explore the GitHub Repository](https://github.com/asvarshini/SafeRoute)**
 
-## 📸 SafeRoute Screenshots
+## 📸 Screenshots
 
 ### 🏠 Home Page
 
@@ -22,299 +22,147 @@
 
 ![SafeRoute Hygiene and Safety](screenshot/safety%20and%20hygienic.jpeg)
 
-### 🌦️ Weather & Community Information
+### 🌦️ Weather & Women's Community Feedback
 
 ![SafeRoute Weather and Community Information](screenshot/Weather%20%26Community%20info.jpeg)
 
 ---
 
-
 ## 🚨 The Problem
 
-Most travel platforms answer:
-
-**“Where can I stay?”**
-
-But travelers also need to know:
-
-**“Is this a sensible and comfortable place for my trip?”**
-
-Price and star ratings alone cannot answer that.
+Traditional travel platforms focus mainly on hotel prices, ratings, and bookings. However, travelers may also need information about cleanliness, women's-safety-related experiences, and weather conditions before choosing accommodation.
 
 ## 💡 Our Solution
 
-SafeRoute combines:
+SafeRoute adds a **decision-support layer before booking**, helping travelers explore available evidence and relevant travel information rather than relying only on ratings.
 
-🏨 **Hotel Discovery**  
-🧹 **Hygiene Signals**  
-👩 **Women's-Safety Signals**  
-🌦️ **Weather Context**  
-⚠️ **Travel & Weather Awareness**  
-📰 **Travel News**  
-👥 **Community Feedback**
+### ✨ Key Features
 
-into one simple travel decision-making experience.
+* 🏨 **Hotel Discovery:** Find hotel options using destination and trip details.
+* 🧹 **Hygiene Evidence:** Explore available information related to cleanliness, bathrooms, and housekeeping.
+* 👩 **Women's-Safety Signals:** Review relevant experiences found in available hotel review information.
+* 👭 **Women's Community Feedback:** Enable women travelers to share and explore community experiences through supported feedback features.
+* 🌦️ **Weather Information:** View weather conditions that may affect travel planning.
+* 📰 **Travel News:** Access travel-related news and destination context.
+* 🚗 **Transport Context:** Consider available transport-related information.
 
-### ✈️ The SafeRoute Journey
+**SafeRoute Journey:**
 
-**Trip Details → Hotel Discovery → Review Evidence → Hygiene & Women's Safety → Weather & Travel Context → Community Feedback → Better Decision**
+`Trip Details → Hotel Discovery → Review Evidence → Weather & Travel Context → Women's Community Feedback → Informed Decision`
 
-Instead of simply saying **“4.2 ⭐ — Book Now,”** SafeRoute helps travelers understand **why a hotel may or may not be suitable for their trip.**
+## 🔥 SerpApi Integration
 
-# ⭐ Why SafeRoute Is Different
+SerpApi powers important parts of SafeRoute's travel-information workflow:
 
-### 🧳 Traditional Travel Search
+* 🏨 **Google Hotels:** Retrieves hotel options and available listing information.
+* 🔎 **Hotel Review Information:** Supports the exploration of available evidence relevant to hygiene and women's-safety-related experiences, where that data is available.
+* 📰 **Google News:** Retrieves travel-related news and destination context.
 
-**💰 Price → ⭐ Rating → 🏨 Book**
+🌦️ **Open-Meteo** provides weather information.
 
-### 🛡️ SafeRoute
+Together, these integrations help SafeRoute bring different information sources into one travel decision experience.
 
-**🔎 Search → 🔍 Evidence → 🧹 Hygiene & 👩 Women's Safety → 🌦️ Weather → ⚠️ Travel Context → 👥 Community → ✅ Decide**
+## 🧠 Trust Through Evidence
 
-Our uniqueness is the **decision layer before booking**.
+SafeRoute aims to distinguish between:
 
-SafeRoute brings different travel signals together so users can make a more informed accommodation decision instead of depending only on price and ratings.
+* ✅ Positive observations
+* ⚠️ Reported concerns
+* ❓ Insufficient evidence
+* 👭 Women's community experiences
 
-# 🔥 SerpApi Is the Core of SafeRoute
+We do not fabricate negative reviews to influence a score. Missing evidence does not prove that a hotel is safe or unsafe.
 
-SerpApi is **not a cosmetic integration**. It directly powers major parts of our application.
+> ⚠️ **Safety Disclaimer:** SafeRoute supports informed decision-making but cannot guarantee personal safety. Official government emergency-alert integration is not currently connected. Users should consult official advisories when necessary.
 
-### 🏨 Google Hotels — Hotel Discovery
+## 💻 Technology Stack
 
-We use **SerpApi Google Hotels** to discover hotel options based on:
+| Component            | Technologies                           |
+| -------------------- | -------------------------------------- |
+| Frontend             | React, Vite, JavaScript, CSS           |
+| Backend              | Python, FastAPI                        |
+| Database             | SQLite                                 |
+| Search & Travel Data | SerpApi, Google Hotels, Google News    |
+| Weather              | Open-Meteo                             |
+| Integration          | REST APIs, JSON, environment variables |
 
-📍 Destination  
-📅 Travel dates  
-👥 Number of travelers  
-⭐ Ratings  
-💰 Available prices
+## 🏗️ Project Structure
 
-### 🔎 Hotel Review Evidence — Understand Before Booking
-
-Available hotel and review information is analyzed for evidence related to:
-
-🧹 Cleanliness & Hygiene  
-🚿 Bathrooms & Sanitation  
-🧑‍💼 Housekeeping  
-👩 Women's-Safety-Related Experiences
-
-Users can open the evidence behind the signals instead of receiving an unexplained score.
-
-### 📰 Google News — Travel Context
-
-We use **SerpApi Google News** to provide travel-related information and destination context that can help users make better decisions.
-
-### 💥 Why SerpApi Matters
-
-Without SerpApi, SafeRoute would lose major parts of its core workflow:
-
-**🏨 Hotel Discovery + 🔎 Review Evidence + 📰 Travel News**
-
-This makes SerpApi a **fundamental part of the product**, not an add-on.
-
-# ⚠️ Weather & Travel Awareness
-
-SafeRoute also considers **weather conditions and travel information** as part of the travel decision.
-
-🌧️ Rain  
-💨 Wind  
-🌡️ Temperature  
-🌦️ Weather Conditions  
-⚠️ Travel/Weather Context
-
-This can be especially useful when traveling through **hilly, mountainous, or landslide-prone regions**, where changing weather conditions can affect travel planning.
-
-> ⚠️ **SafeRoute provides travel decision context. It does not guarantee safety and does not replace official government emergency alerts.**
-
-# 🧠 Trust Through Evidence
-
-SafeRoute follows:
-
-**Evidence → Signal → Decision**
-
-Users can see:
-
-✅ Positive Evidence  
-⚠️ Reported Concerns  
-❓ Insufficient Evidence  
-👥 Community Feedback
-
-We do **not fabricate negative reviews** simply to make a score look balanced.
-
-When evidence is insufficient, SafeRoute says so.
-
-# 🏗️ Project Structure
-
-``` text
+```text
 SafeRoute/
-│
-├── 📄 README.md
-│
-├── 📁 backend/
-│   ├── 🐍 main.py
-│   ├── 🗄️ database.py
-│   ├── 📄 requirements.txt
-│   
-│
-├── 📁 frontend/
-│   ├── 📁 public/
-│   │
-│   ├── 📁 src/
-│   │   ├── ⚛️ App.jsx
-│   │   ├── ⚛️ main.jsx
-│   │   ├── 🎨 App.css
-│   │   ├── 🎨 index.css
-│   │   │
-│   │   ├── 📁 components/
-│   │   │   ├── SearchForm.jsx
-│   │   │   ├── HotelCard.jsx
-│   │   │   ├── SafetyAlert.jsx
-│   │   │   ├── CommunityReviewForm.jsx
-│   │   │   ├── ScoreRing.jsx
-│   │   │   └── TransportPanel.jsx
-│   │   │
-│   │   └── 📁 services/
-│   │       └── api.js
-│   │
-│   ├── 📦 package.json
-│   ├── 📦 package-lock.json
-│   └── ⚡ vite.config.js
-│
-└── 📄 .gitignore
+├── README.md
+├── .gitignore
+├── backend/
+│   ├── main.py
+│   ├── database.py
+│   └── requirements.txt
+└── frontend/
+    ├── src/
+    │   ├── components/
+    │   ├── services/
+    │   │   └── api.js
+    │   ├── App.jsx
+    │   ├── App.css
+    │   ├── index.css
+    │   └── main.jsx
+    ├── package.json
+    └── vite.config.js
 ```
 
-💻 Technology Used
+## 🚀 How to Run Locally
 
-🎨 Frontend
+### 1. Clone the Repository
 
-⚛️ React
-
-⚡ Vite
-
-🟨 JavaScript / JSX
-
-🎨 HTML / CSS
-
-⚙️ Backend
-
-
-🐍 Python
-
-🚀 FastAPI
-
-🗄️ SQLite
-
-
-🔎 Data & Intelligence
-
-🔥 SerpApi
-
-🏨 Google Hotels
-
-📰 Google News
-
-🌦️ Open-Meteo
-
-🧠 Review Evidence Analysis
-
-
-
-🔗 Integration
-
-🔌 REST APIs
-
-📦 JSON
-
-🔐 Environment Variables
-
-
-🏆 Why SafeRoute Fits the Hackathon
-
-🎯 Track: Travel & Local Discovery
-
-
-💡 Idea: Solves the gap between finding a hotel and deciding whether it is suitable.
-
-
-✨ Originality: Combines hotel discovery with evidence-driven hygiene and women's-safety decision support.
-
-
-
-🧠 Technical Complexity: React + FastAPI + SerpApi + review analysis + transparent scoring + SQLite + weather + community feedback.
-
-
-🌍 Usefulness: Helps travelers make a more informed decision before spending money or booking.
-
-
-🔥 Meaningful SerpApi Usage: SerpApi powers hotel discovery, review evidence and travel-news context.
-
-
-🚀 How to Start
-
-1️⃣ Clone the Repository
-
-git clone   https://github.com/asvarshini/SafeRoute
-
+```bash
+git clone https://github.com/asvarshini/SafeRoute.git
 cd SafeRoute
+```
 
+### 2. Install Backend Dependencies
 
-2️⃣ Start the Backend
-
+```bash
 cd backend
-
 pip install -r requirements.txt
+```
 
-python -m uvicorn main:app --reload
+### 3. Configure Your API Key
 
+Create a `backend/.env` file:
 
-3️⃣ Add Your SerpApi Key
-
-Create a .env file inside the backend folder:
-
-
+```env
 SERPAPI_API_KEY=your_api_key_here
+```
 
+Get an API key from [SerpApi](https://serpapi.com/). Never commit your actual API key to GitHub.
 
-🔐 Never commit your real API key to GitHub.
+### 4. Start the Backend
 
+```bash
+python -m uvicorn main:app --reload
+```
 
-4️⃣ Start the Frontend
+Backend API documentation: http://127.0.0.1:8000/docs
 
-Open another terminal:
+### 5. Start the Frontend
 
+Open a second terminal:
 
+```bash
 cd frontend
-
 npm install
-
 npm run dev
+```
 
+Open the local URL displayed by Vite in your terminal.
 
-Then open the local URL provided by Vite in your browser.
+## 🚀 Future Scope
 
+SafeRoute could evolve into an AI-powered travel decision assistant with improved evidence analysis, personalized recommendations, stronger source attribution, and integrations with official travel advisories.
 
-🚀 Future Vision
+## 🎯 Our Vision
 
+**SafeRoute turns travel search into travel decision intelligence — helping travelers understand the evidence before they book.**
 
-SafeRoute can evolve into an 🤖 AI-powered travel agent that continuously analyzes:
+🛡️ **Search Smart. Understand the Evidence. Travel Better.**
 
-
-🔎 Search Evidence
-
-🌦️ Weather
-
-📰 Travel News
-
-👥 Community Feedback
-
-🏨 Hotel Information
-
-to provide personalized recommendations and proactively inform travelers when relevant conditions change.
-
-🎯 Our Vision
-
-SafeRoute turns travel search into travel decision intelligence — helping travelers understand the evidence before they book.
-
-🛡️ Search Smart. Understand the Evidence. Travel Better.
-
-Built by **[Varshini A S]** for the  SerpApi India Hackathon 2026
+Built by **Varshini A S** for the **SerpApi India Hackathon 2026**.
