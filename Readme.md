@@ -2,6 +2,12 @@
 
 > 🌍 SafeRoute is not another travel-booking app. It is a safety-focused travel decision layer that helps travelers understand a hotel and surrounding travel conditions before they book.
 
+## 🎬 Project Demo
+
+▶️ **Watch SafeRoute in action:** [Watch the 90-second demo on YouTube](https://youtu.be/vWxm4ys-oXM)
+
+💻 **GitHub Repository:** [Explore the SafeRoute source code](https://github.com/asvarshini/SafeRoute)
+
 ## 📸 SafeRoute Screenshots
 
 ### 🏠 Home Page
